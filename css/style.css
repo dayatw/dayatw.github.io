@@ -1,0 +1,79 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	background-image: url(../assets/body.jpg);
+	background-size: cover;
+}
+
+.container .nav {
+	text-transform: uppercase;
+}
+
+
+.jumbotron {
+	background-image: url(../assets/creative-ideas.jpg);
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	height: 400px;
+}
+
+.jumbotron h1, p {
+	color: white;
+	text-shadow: 1px 1px rgba(0,0,0,0.5);
+}	
+.container p {
+	color: black;
+	text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+
+#card {
+	background: linear-gradient(#000046, #1cb5e0);
+	margin-top: 25px;
+}
+
+.card p {
+	color: white;
+}
+
+.layanan {
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 100px 100px 100px; 
+	padding-bottom: 60px;
+	padding-right: 80px;
+	padding-left: 50px;
+	background: linear-gradient(#000046, #1cb5e0);
+}
+
+.layanan h4 {
+	color: white;
+}
+
+.layanan p {
+	color: white;
+}
+
+.card h5 {
+	color: white;
+}
+
+.container .About {
+	margin-left: 100px;
+}
+
+
+@media (max-width: 720px) {
+	.jumbotron {
+		background-position: center;
+		background-size: cover;
+	}
+	.container .About img {
+	margin-left: -150px;
+	margin-bottom: -55px;
+	}
+	.container .About p {
+		margin-left: -85px;
+	}
+
+
+}
